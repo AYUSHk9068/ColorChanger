@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {  
+background-color: rgb(228, 17, 168);  
+color: black;  
+font-size: 25px;  
+margin: auto; 
+display: flex;  
+justify-content: center;  
+align-items: center;  
+}  
+    </style>
+</head>
+<body style="background-color: rgb(16, 17, 17);">
+    <h1 style="color: antiquewhite; text-align: center;">Background Color Changer</h1>
+    <h2 style=" color: antiquewhite ;text-align: center;">To change the color you need to just click on the desired color button</h2>
+    <button id="orange">ORANGE</button><br>
+    <button id="red">RED</button><br>
+    <button id="blue">BLUE</button><br>
+    <button id="green">GREEN</button><br>
+    <button id="yellow">YELLOW</button><br>
+
+</body>
+<script>
+    document.getElementById("orange").onclick= function(){
+        document.body.style.backgroundColor =`orange`
+        
+    }
+    document.getElementById("red").onclick= function () {
+        document.body.style.backgroundColor = `red`
+        
+    }
+    document.getElementById("blue").onclick= function () {
+        document.body.style.backgroundColor = `blue`
+        
+    }
+    document.querySelector("#green").onclick= function () {
+        document.body.style.backgroundColor = `green`
+        
+    }
+    document.querySelector("#yellow").onclick= function () {
+        document.body.style.backgroundColor = `yellow`
+        
+    }
+</script>
+</html>
